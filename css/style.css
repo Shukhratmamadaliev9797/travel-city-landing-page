@@ -1412,7 +1412,7 @@ body {
       rgba(32, 38, 57, 0.6) 11.4%,
       rgba(63, 76, 119, 0.6) 70.2%
     ),
-    url("/img/feature-img.jpg");
+    url("../img/feature-img.jpg");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1446,7 +1446,7 @@ body {
       rgba(255, 255, 255, 0.9) 50%,
       transparent 50%
     ),
-    url(/img/newYork.jpg);
+    url(../img/newYork.jpg);
   background-size: cover;
   border-radius: 5px;
 }
@@ -1544,7 +1544,7 @@ body {
       rgba(32, 38, 57, 0.6) 11.4%,
       rgba(63, 76, 119, 0.6) 70.2%
     ),
-    url("/img/newYork.jpg");
+    url("../img/newYork.jpg");
   background-size: cover;
   background-position: top;
   height: 95vh;
