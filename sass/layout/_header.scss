@@ -1,0 +1,53 @@
+.header {
+  position: relative;
+  background-image: linear-gradient(
+      112.1deg,
+      rgba(32, 38, 57, 0.6) 11.4%,
+      rgba(63, 76, 119, 0.6) 70.2%
+    ),
+    url("../img/newYork.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 95vh;
+  clip-path: polygon(0 0, 100% 0%, 100% 81%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 81%, 0% 100%);
+
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+  &__logo {
+    height: 7rem;
+    border-radius: 1.2rem;
+  }
+  &__logo:hover {
+    animation: rotateRightLeft 2s ease-in-out;
+  }
+  &__text-box {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  &-title {
+    color: #f4f9f9;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+  }
+  &-title--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: bold;
+    letter-spacing: 3.5rem;
+    animation: moveInLeft 2s ease-in-out;
+  }
+  &-title--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 2.2rem;
+    animation: moveInRight 2s ease-in-out;
+  }
+}
